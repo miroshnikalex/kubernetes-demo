@@ -1,7 +1,8 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: tomcat-deployment
+  name: tomcat
+  namespace: frontend
 spec:
   selector:
     matchLabels:
